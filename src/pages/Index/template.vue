@@ -1,8 +1,9 @@
 <template>
   <div id="index">
-    首页
+    <p>首页</p>
+    <el-button @click="onClick1">默认按钮</el-button>
   </div>
 </template>
 
 <script src="./template.js"></script>
-<style src="./template.css"></style>
+<style scoped lang="less" src="./template.css"></style>

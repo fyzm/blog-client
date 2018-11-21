@@ -39,7 +39,7 @@ export default new Router({
       component: Edit
     },
     {
-      path: '/',
+      path: '/index',
       component: Index
     },
     {
