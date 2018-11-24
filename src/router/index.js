@@ -17,7 +17,7 @@ export default new Router({
       component: Login
     },
     {
-      path: '/detail',
+      path: '/detail/:blogId',
       component: Detail
     },
     {
@@ -25,7 +25,7 @@ export default new Router({
       component: Create
     },
     {
-      path: '/edit',
+      path: '/edit/:blogId',
       component: Edit
     },
     {
@@ -41,7 +41,7 @@ export default new Router({
       component: Register
     },
     {
-      path: '/user',
+      path: '/user/:userId',
       component: User
     }
   ]
